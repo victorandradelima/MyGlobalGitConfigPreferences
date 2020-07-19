@@ -8,6 +8,7 @@ git config --global --edit
 
 Insira os seguintes comandos:
 
+```
 [user]
 	email = victorandradelima@gmail.com
 	name = Victor Lima
@@ -22,7 +23,7 @@ Insira os seguintes comandos:
 	l = !git log --pretty=format:'%C(blue)%h%C(red)%d %C(white)%s - %C(cyan)%cn, %C(green)%cr'
 	amend = !git add --all && git commit --amend --no-edit
 	count = !git shortlog -s --grep
-
+```
 
 PS2: Caso trabalhe com várioas repositórios remotos diferentes, voce vai precisar configurar o USER direto no projeto, neste caso devemos usar a tag --local ex:
 git config --local --edit
